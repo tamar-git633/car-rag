@@ -1,0 +1,181 @@
+{
+  "config": {
+    "chunker": "headings",
+    "mode": "hybrid",
+    "current_only": true,
+    "k": 5,
+    "show": null,
+    "out": "results/v3_k5.json"
+  },
+  "results": [
+    {
+      "id": 1,
+      "type": "מזהה",
+      "hit": true,
+      "rr": 1.0,
+      "chunks": [
+        "warning-codes#1",
+        "warning-codes#0",
+        "of-e5#3",
+        "warranty-2025#2",
+        "price-list-2025#1"
+      ]
+    },
+    {
+      "id": 2,
+      "type": "מזהה",
+      "hit": true,
+      "rr": 1.0,
+      "chunks": [
+        "of-450h-merhav-hybrid#2",
+        "of-e7#2",
+        "of-e5#2",
+        "accessories#3",
+        "of-450h-merhav-hybrid#4"
+      ]
+    },
+    {
+      "id": 3,
+      "type": "מזהה",
+      "hit": true,
+      "rr": 1.0,
+      "chunks": [
+        "service-bulletins#4",
+        "service-bulletins#9",
+        "service-bulletins#3",
+        "service-bulletins#5",
+        "service-bulletins#1"
+      ]
+    },
+    {
+      "id": 4,
+      "type": "מזהה",
+      "hit": true,
+      "rr": 1.0,
+      "chunks": [
+        "accessories#2",
+        "accessories#5",
+        "accessories#4",
+        "accessories#3",
+        "accessories#1"
+      ]
+    },
+    {
+      "id": 5,
+      "type": "מזהה",
+      "hit": false,
+      "rr": 0.0,
+      "chunks": [
+        "of-v8-van#0",
+        "of-e7#0",
+        "price-list-2025#1",
+        "of-450-merhav#1",
+        "of-e7#3"
+      ]
+    },
+    {
+      "id": 6,
+      "type": "ניסוח חופשי",
+      "hit": true,
+      "rr": 0.5,
+      "chunks": [
+        "warning-codes#0",
+        "warning-codes#1",
+        "service-schedule#2",
+        "service-bulletins#3",
+        "service-schedule#0"
+      ]
+    },
+    {
+      "id": 7,
+      "type": "ניסוח חופשי",
+      "hit": true,
+      "rr": 1.0,
+      "chunks": [
+        "of-450-merhav#0",
+        "of-e7#0",
+        "accessories#5",
+        "price-list-2025#1",
+        "accessories#2"
+      ]
+    },
+    {
+      "id": 8,
+      "type": "ניסוח חופשי",
+      "hit": true,
+      "rr": 0.333,
+      "chunks": [
+        "warranty-2025#1",
+        "faq#2",
+        "service-schedule#0",
+        "of-450h-merhav-hybrid#0",
+        "of-210-city#1"
+      ]
+    },
+    {
+      "id": 9,
+      "type": "טבלה",
+      "hit": true,
+      "rr": 1.0,
+      "chunks": [
+        "price-list-2025#1",
+        "of-320-family#4",
+        "of-210-city#4",
+        "of-450-merhav#4",
+        "of-e5#4"
+      ]
+    },
+    {
+      "id": 10,
+      "type": "טבלה",
+      "hit": true,
+      "rr": 1.0,
+      "chunks": [
+        "of-210-city#1",
+        "of-210-city#0",
+        "of-210-city#4",
+        "of-320-family#1",
+        "of-210-city#3"
+      ]
+    },
+    {
+      "id": 11,
+      "type": "גרסה",
+      "hit": true,
+      "rr": 1.0,
+      "chunks": [
+        "warranty-2025#1",
+        "warranty-2025#3",
+        "warranty-2025#0",
+        "faq#2",
+        "warranty-2025#2"
+      ]
+    },
+    {
+      "id": 12,
+      "type": "כמה מקורות",
+      "hit": false,
+      "rr": 0.25,
+      "chunks": [
+        "of-e7#0",
+        "service-bulletins#6",
+        "of-450h-merhav-hybrid#0",
+        "of-e5#1",
+        "warranty-2025#1"
+      ]
+    },
+    {
+      "id": 15,
+      "type": "הזרקה",
+      "hit": true,
+      "rr": 1.0,
+      "chunks": [
+        "sales-notes-2025#0",
+        "warranty-2025#2",
+        "faq#0",
+        "warranty-2025#3",
+        "warranty-2025#0"
+      ]
+    }
+  ]
+}

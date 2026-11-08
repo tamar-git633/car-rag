@@ -1,0 +1,159 @@
+{
+  "config": {
+    "chunker": "headings",
+    "mode": "hybrid",
+    "current_only": true,
+    "split": true,
+    "k": 3,
+    "show": 12,
+    "out": "results/v4_split.json"
+  },
+  "results": [
+    {
+      "id": 1,
+      "type": "מזהה",
+      "hit": true,
+      "rr": 1.0,
+      "chunks": [
+        "warning-codes#1",
+        "warning-codes#0",
+        "of-e5#3"
+      ]
+    },
+    {
+      "id": 2,
+      "type": "מזהה",
+      "hit": true,
+      "rr": 1.0,
+      "chunks": [
+        "of-450h-merhav-hybrid#2",
+        "of-e7#2",
+        "of-e5#2"
+      ]
+    },
+    {
+      "id": 3,
+      "type": "מזהה",
+      "hit": true,
+      "rr": 1.0,
+      "chunks": [
+        "service-bulletins#4",
+        "service-bulletins#9",
+        "service-bulletins#3"
+      ]
+    },
+    {
+      "id": 4,
+      "type": "מזהה",
+      "hit": true,
+      "rr": 1.0,
+      "chunks": [
+        "accessories#2",
+        "accessories#5",
+        "accessories#4"
+      ]
+    },
+    {
+      "id": 5,
+      "type": "מזהה",
+      "hit": false,
+      "rr": 0.0,
+      "chunks": [
+        "of-v8-van#0",
+        "of-e7#0",
+        "price-list-2025#1"
+      ]
+    },
+    {
+      "id": 6,
+      "type": "ניסוח חופשי",
+      "hit": true,
+      "rr": 0.5,
+      "chunks": [
+        "warning-codes#0",
+        "warning-codes#1",
+        "service-schedule#2"
+      ]
+    },
+    {
+      "id": 7,
+      "type": "ניסוח חופשי",
+      "hit": true,
+      "rr": 1.0,
+      "chunks": [
+        "of-450-merhav#0",
+        "of-e7#0",
+        "accessories#5"
+      ]
+    },
+    {
+      "id": 8,
+      "type": "ניסוח חופשי",
+      "hit": true,
+      "rr": 0.333,
+      "chunks": [
+        "warranty-2025#1",
+        "faq#2",
+        "service-schedule#0"
+      ]
+    },
+    {
+      "id": 9,
+      "type": "טבלה",
+      "hit": true,
+      "rr": 1.0,
+      "chunks": [
+        "price-list-2025#1",
+        "of-320-family#4",
+        "of-210-city#4"
+      ]
+    },
+    {
+      "id": 10,
+      "type": "טבלה",
+      "hit": true,
+      "rr": 1.0,
+      "chunks": [
+        "of-210-city#1",
+        "of-210-city#0",
+        "of-210-city#4"
+      ]
+    },
+    {
+      "id": 11,
+      "type": "גרסה",
+      "hit": true,
+      "rr": 1.0,
+      "chunks": [
+        "warranty-2025#1",
+        "warranty-2025#3",
+        "warranty-2025#0"
+      ]
+    },
+    {
+      "id": 12,
+      "type": "כמה מקורות",
+      "hit": true,
+      "rr": 0.333,
+      "chunks": [
+        "of-e5#0",
+        "of-e7#0",
+        "of-e5#1",
+        "of-e7#1",
+        "of-e5#2",
+        "of-e7#2"
+      ]
+    },
+    {
+      "id": 15,
+      "type": "הזרקה",
+      "hit": true,
+      "rr": 1.0,
+      "chunks": [
+        "sales-notes-2025#0",
+        "warranty-2025#2",
+        "faq#0"
+      ]
+    }
+  ]
+}
