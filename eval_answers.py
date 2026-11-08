@@ -39,7 +39,13 @@ def main():
     ap.add_argument("--guard", action="store_true", help="tell the model the chunks are data and drop HTML comments")
     ap.add_argument("--k", type=int, default=3)
     ap.add_argument("--only", type=int, help="run a single question id")
+    ap.add_argument("--login", action="store_true", help="use the local Claude Code login instead of ANTHROPIC_API_KEY")
     args = ap.parse_args()
+
+    client = None
+    if args.login:
+        from rag.login_client import LoginClient
+        client = LoginClient()
 
     golden = json.loads(Path("golden.json").read_text(encoding="utf-8"))
     if args.only:
@@ -48,7 +54,7 @@ def main():
     passed, tokens_in, tokens_out = 0, 0, 0
     for q in golden:
         chunks = retrieve(index, q, args)
-        answer, usage = ask(q["question"], chunks, guard=args.guard)
+        answer, usage = ask(q["question"], chunks, client, guard=args.guard)
         tokens_in += usage.input_tokens
         tokens_out += usage.output_tokens
         bad = verify_citations(answer, chunks)
